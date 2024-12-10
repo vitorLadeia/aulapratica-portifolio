@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Portifólio Pessoal - Uninter</title>
+</head>
+    <body>
+        <header> <!-- Fiz um cabeçalho do site na lateral -->
+        <nav id="sidebar">
+            <div id="sidebar_content"> <!-- Abri esa DIV paa agrupar todo esse inicio e mover os itens de forma mais fácil. -->
+                <div id="user">
+                    <img src="imagens/fotoPerfil_02.jpg" id="user_avatar" alt="Avatar">
+                        <p id="user_info">
+                            <span class="user-descricao">30 anos</span>
+                            <span class="user-descricao">(18) 99999-9999</span>
+                            <span class="user-descricao">vitorsilva@uninter.com.br</span>
+                        </p>
+                </div>
+                <ul id="side_item"> <!-- Lista aberta para inserir o que conciderei os menus da página. -->
+                    <li class="side-itens">                    
+                        <span><a href="#">Sobre mim</a></span> <!-- Cada um direciona para uma parte da página. -->
+                    </li>
+                    <li class="side-itens">
+                        <span><a href="#formacao">Formação</a></span>
+                    </li>
+                    <li class="side-itens">
+                        <span><a href="#experiencia">Experiencia Profissional</a></span>
+                    </li>
+                    <li class="side-itens">
+                        <span><a href="#projetos">Projetos</a></span>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        </header>
+        <main>
+            <div>
+                <h1>Olá, meu nome é Vitor César</h1>
+                    <div id="conteudo_pagina">
+                        <p class="conteudo_bloco2">Nascido e criado na mesma cidade do interior do estado de São Paulo apto em aprender coisas novas. Gosto de me envolver em novos projetos e ver o desenvolvimento das coisas. Estou sempre em busca de novos conhecimentos e atividades que possam agregar na minha jornada pessoal e profissional.</p>
+                    </div>
+
+                <!-- Trabalhei com SECTION para facilitar a edição de cada seção das informações. -->
+                <section id="bloco1"> 
+                    <div>
+                        <h3 id="formacao">Formação</h3>
+                            <p class="paragrafo1">ETEC Amin Jundi</p>
+                            <p class="paragrafo1">Anhanguera</p>
+                            <p class="paragrafo1">Curso em Vídeo</p>
+                    </div>
+                    <div>
+                        <h3>Cursos</h3>
+                            <p class="paragrafo1">Inglês</p>
+                    </div>
+                </section>
+
+                <section id="bloco2">
+                    <h3 id="experiencia">Experiencia Profissional</h3>
+                        <div id="texto_bloco2">
+                            <h4 id="conteudo_bloco2">Prefeiura Municipal, 2013-2015</h4>
+                                <p class="conteudo_bloco2">Estágio - Organização, divulgação e conscientização sobre separação do lixo domestico reciclavel.</p>
+                            <h4 id="conteudo_bloco2">Banco Bradesco, 2016-2018</h4>
+                                <p class="conteudo_bloco2">Escriturario - Atendimento ao publico, venda de produtos e negociação.</p>
+                            <h4 id="conteudo_bloco2">Corretora de Seguros , 2019-2024</h4>
+                                <p class="conteudo_bloco2">Secretário Administrativo - Atendimento ao publico, vendas de seguros em gerais, atendimento de sinistro.</p>
+                        </div>
+                </section>
+
+                <section id="bloco3">
+                    <h3 id="projetos">Projetos</h3>
+                        <a href="https://github.com/vitorLadeia">GitHub</a>
+                        <a href="https://codesandbox.io/p/sandbox/desafio-final-h7jzf3">Projeto - SelfCare</a>
+                        <a href="https://codesandbox.io/p/sandbox/desafio-03-ritmo-da-batida-mng9l5">Projeto - Ritmo da batida</a>
+                </section>
+
+                <section id="bloco4">
+                    <div>
+                        <h3>Deixe sua mensagem</h3>
+                            <form id="bloco4"> <!-- Consegui inserir essa formulário, porem senti dificuldade para ajsutar o largura. -->
+                                <input class="input_" type="text" id="nome" placeholder="Nome">
+                                <br>
+                                <input class="input_" type="email" id="email" placeholder="E-mail">
+                                <br>                
+                                <textarea class="input_" rows="2" cols="120" id="mensagem" name="mensagem" placeholder="Escreva aqui"></textarea>
+                                <br>
+                                <button>Enviar</button>
+                            </form>
+                    </div>
+                </section>              
+            </div>
+            <div id="final"></div> <!-- Criei uma DIV vazia para inserir um detalhe no final da página. -->        
+        </main>
+
+        <!-- Não inseri um FOOTER porque não consegui deixar ele relamente no final da página, dessa forma acabou ficando um espaço vazio na lateral direita. -->
+    </body>
+</html>

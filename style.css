@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    display: flex;
+    background-color: #F2F2F2;
+}
+
+/* Inicio Header */
+#sidebar{
+    display: flex;
+    flex-direction: column;
+    background-color: #343240;
+    width: 310px;
+    height: 100%;
+    border-radius: 0px 18px 18px 0px;
+}
+#sidebar_content{
+    padding: 15px;
+}
+#user{
+    display: flex;
+    align-items: center;
+    margin: 10px 10px 10px 5px;
+    padding: 5px;
+}
+#user_info{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+#user_info span:last-child{
+    color: #F2F2F2;
+    font-size: 12px;
+}
+.user-descricao{
+    padding: 2px;
+    color: #F2F2F2;
+}
+#user_avatar{
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    border-radius: 18px;
+}
+#side_item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 30vh;
+    gap: 10px;
+    list-style: none;
+}
+#side-itens{
+    padding: 44px;
+    cursor: pointer;
+}
+#side-itens a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#side-ulitmo-item{
+    list-style: none;
+    text-decoration: none;
+}
+/* Fim Header */
+
+a {
+    text-decoration: none;
+    color: #36C8D9;
+}
+
+/* Inicio Main */
+
+main{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 0px 20px;
+}
+h3 {
+    font-size: 20px;
+    text-align: center;
+    margin: 5px;
+}
+#conteudo_pagina{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 12px;
+}
+.paragrafo1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4px;
+}
+#bloco1{
+    display: flex;
+    justify-content: space-evenly;
+    border: 0px;
+    padding: 10px;
+    flex-direction: column; 
+}
+#bloco2{
+    display: flex;
+    flex-direction: column;
+    border: 0px;
+    padding: 10px;    
+}
+#texto_bloco2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    text-align: center;
+    padding: 10px;
+}
+#conteudo_bloco2{
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    font-size: 15px;
+}
+.conteudo_bloco2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4px;    
+}
+#bloco3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+}
+#bloco4{
+    display: flex;
+    flex-direction: column;
+    border: 0px;
+    margin: 10px;
+    padding: 2px;    
+}
+input{
+    display: flex;
+    color: #8C5642;    
+    justify-content: center;
+    border-radius: 10px 10px 10px 10px;
+}
+button{
+    display: flex;
+    color: #8C5642;
+    justify-content: center;
+    border-radius: 10px 10px 10px 10px;
+}
+textarea{
+    display: flex;
+    color: #8C5642;
+    justify-content: center;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+}
+#final{
+    display: flex;
+    width: 950px;
+    height: 20px;
+    background-color: #343240;
+    border-radius: 10px 10px 0px 0px;
+}
+
+/* Fim Main */
